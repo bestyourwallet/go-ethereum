@@ -27,7 +27,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/arbitrum/multigas"
 	"github.com/bestyourwallet/go-ethereum/common"
 	"github.com/bestyourwallet/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/bestyourwallet/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/log"
 	"github.com/bestyourwallet/go-ethereum/params"
 	"github.com/bestyourwallet/go-ethereum/rlp"

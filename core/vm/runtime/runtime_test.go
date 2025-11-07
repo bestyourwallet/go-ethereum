@@ -25,21 +25,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/core/vm/program"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-ethereum/accounts/abi"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/consensus"
+	"github.com/bestyourwallet/go-ethereum/core"
+	"github.com/bestyourwallet/go-ethereum/core/state"
+	"github.com/bestyourwallet/go-ethereum/core/tracing"
+	"github.com/bestyourwallet/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/core/vm"
+	"github.com/bestyourwallet/go-ethereum/core/vm/program"
+	"github.com/bestyourwallet/go-ethereum/eth/tracers"
+	"github.com/bestyourwallet/go-ethereum/eth/tracers/logger"
+	"github.com/bestyourwallet/go-ethereum/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
+	_ "github.com/bestyourwallet/go-ethereum/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -455,7 +455,7 @@ func BenchmarkSimpleLoop(b *testing.B) {
 	p, lbl = program.New().Jumpdest()
 	callEOA := p.
 		Call(nil, 0xE0, 0, 0, 0, 0, 0). // call addr of EOA
-		Op(vm.POP).Jump(lbl).Bytes()    // pop return value and jump to label
+		Op(vm.POP).Jump(lbl).Bytes() // pop return value and jump to label
 
 	p, lbl = program.New().Jumpdest()
 	// Push as if we were making call, then pop it off again, and loop
@@ -596,7 +596,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/ethereum/go-ethereum/issues/22649
+// see: https://github.com/bestyourwallet/go-ethereum/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte
@@ -716,19 +716,19 @@ func TestRuntimeJSTracer(t *testing.T) {
 	}{
 		{ // CREATE
 			code: program.New().MstoreSmall(initcode, 0).
-				Push(len(initcode)).      // length
+				Push(len(initcode)). // length
 				Push(32 - len(initcode)). // offset
-				Push(0).                  // value
+				Push(0). // value
 				Op(vm.CREATE).
 				Op(vm.POP).Bytes(),
 			results: []string{`"1,1,952853,6,12"`, `"1,1,952853,6,0"`},
 		},
 		{ // CREATE2
 			code: program.New().MstoreSmall(initcode, 0).
-				Push(1).                  // salt
-				Push(len(initcode)).      // length
+				Push(1). // salt
+				Push(len(initcode)). // length
 				Push(32 - len(initcode)). // offset
-				Push(0).                  // value
+				Push(0). // value
 				Op(vm.CREATE2).
 				Op(vm.POP).Bytes(),
 			results: []string{`"1,1,952844,6,13"`, `"1,1,952844,6,0"`},

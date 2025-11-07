@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/go-ethereum/ethdb"
+	"github.com/bestyourwallet/go-ethereum/ethdb/memorydb"
 )
 
 func TestIteratorHold(t *testing.T) {

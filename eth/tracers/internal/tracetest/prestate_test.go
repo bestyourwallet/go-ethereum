@@ -24,13 +24,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/core"
+	"github.com/bestyourwallet/go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/core/vm"
+	"github.com/bestyourwallet/go-ethereum/eth/tracers"
+	"github.com/bestyourwallet/go-ethereum/tests"
 )
 
 // prestateTrace is the result of a prestateTrace run.

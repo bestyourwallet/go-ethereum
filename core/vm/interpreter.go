@@ -19,11 +19,11 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/arbitrum/multigas"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
+	"github.com/bestyourwallet/go-ethereum/arbitrum/multigas"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common/math"
+	"github.com/bestyourwallet/go-ethereum/core/state"
+	"github.com/bestyourwallet/go-ethereum/core/tracing"
 	"github.com/holiman/uint256"
 )
 

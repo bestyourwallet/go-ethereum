@@ -22,12 +22,12 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/core/tracing"
+	"github.com/bestyourwallet/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/core/vm"
+	"github.com/bestyourwallet/go-ethereum/eth/tracers"
+	"github.com/bestyourwallet/go-ethereum/params"
 )
 
 func init() {

@@ -21,11 +21,11 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/core/state"
+	"github.com/bestyourwallet/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/core/vm"
+	"github.com/bestyourwallet/go-ethereum/params"
 	"golang.org/x/sync/errgroup"
 )
 

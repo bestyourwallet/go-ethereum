@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"mime"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/bestyourwallet/go-ethereum/accounts"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common/hexutil"
+	"github.com/bestyourwallet/go-ethereum/consensus/clique"
+	"github.com/bestyourwallet/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/bestyourwallet/go-ethereum/rlp"
+	"github.com/bestyourwallet/go-ethereum/signer/core/apitypes"
 )
 
 // sign receives a request and produces a signature

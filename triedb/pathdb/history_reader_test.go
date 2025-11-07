@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/internal/testrand"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/go-ethereum/internal/testrand"
 )
 
 func waitIndexing(db *Database) {

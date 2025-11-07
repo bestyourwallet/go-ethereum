@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common/bitutil"
+	"github.com/bestyourwallet/go-ethereum/metrics"
+	"github.com/bestyourwallet/go-ethereum/p2p/rlpx"
+	"github.com/bestyourwallet/go-ethereum/rlp"
 )
 
 const (

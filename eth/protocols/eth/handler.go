@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/core"
+	"github.com/bestyourwallet/go-ethereum/core/txpool"
+	"github.com/bestyourwallet/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/metrics"
+	"github.com/bestyourwallet/go-ethereum/p2p"
+	"github.com/bestyourwallet/go-ethereum/p2p/enode"
+	"github.com/bestyourwallet/go-ethereum/p2p/enr"
+	"github.com/bestyourwallet/go-ethereum/params"
 )
 
 const (

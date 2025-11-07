@@ -26,14 +26,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/go-ethereum/cmd/devp2p/internal/v4test"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/bestyourwallet/go-ethereum/log"
+	"github.com/bestyourwallet/go-ethereum/p2p/discover"
+	"github.com/bestyourwallet/go-ethereum/p2p/enode"
+	"github.com/bestyourwallet/go-ethereum/params"
+	"github.com/bestyourwallet/go-ethereum/rpc"
 	"github.com/urfave/cli/v2"
 )
 

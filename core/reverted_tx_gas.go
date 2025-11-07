@@ -17,7 +17,7 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common"
 )
 
 // RevertedTxGasUsed maps specific transaction hashes that have been previously reverted to the amount

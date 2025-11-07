@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common/hexutil"
+	"github.com/bestyourwallet/go-ethereum/common/math"
+	"github.com/bestyourwallet/go-ethereum/core/types"
 )
 
 var _ = (*executionResultMarshaling)(nil)

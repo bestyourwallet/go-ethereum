@@ -20,9 +20,9 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/ethdb"
+	"github.com/bestyourwallet/go-ethereum/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

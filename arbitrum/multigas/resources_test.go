@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/go-ethereum/rlp"
 )
 
 func TestCheckResourceKind(t *testing.T) {

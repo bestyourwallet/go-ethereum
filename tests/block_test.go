@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/core/rawdb"
 )
 
 func TestBlockchain(t *testing.T) {
@@ -85,7 +85,7 @@ func TestExecutionSpecBlocktests(t *testing.T) {
 	bt.skipLoad(".*prague/eip7251_consolidations/test_system_contract_deployment.json")
 	bt.skipLoad(".*prague/eip7002_el_triggerable_withdrawals/test_system_contract_deployment.json")
 
-	// These tests fail as of https://github.com/ethereum/go-ethereum/pull/28666, since we
+	// These tests fail as of https://github.com/bestyourwallet/go-ethereum/pull/28666, since we
 	// no longer delete "leftover storage" when deploying a contract.
 	bt.skipLoad(`^cancun/eip6780_selfdestruct/selfdestruct/self_destructing_initcode_create_tx.json`)
 	bt.skipLoad(`^cancun/eip6780_selfdestruct/selfdestruct/self_destructing_initcode.json`)

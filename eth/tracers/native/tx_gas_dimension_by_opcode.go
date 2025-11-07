@@ -3,12 +3,12 @@ package native
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/eth/tracers/native/proto"
+	"github.com/bestyourwallet/go-ethereum/eth/tracers/native/proto"
 
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-ethereum/core/tracing"
+	"github.com/bestyourwallet/go-ethereum/core/vm"
+	"github.com/bestyourwallet/go-ethereum/eth/tracers"
+	"github.com/bestyourwallet/go-ethereum/params"
 	protobuf "google.golang.org/protobuf/proto"
 )
 

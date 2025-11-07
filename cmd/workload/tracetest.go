@@ -23,11 +23,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/bestyourwallet/go-ethereum/eth/tracers"
+	"github.com/bestyourwallet/go-ethereum/internal/utesting"
+	"github.com/bestyourwallet/go-ethereum/log"
 	"github.com/urfave/cli/v2"
 )
 

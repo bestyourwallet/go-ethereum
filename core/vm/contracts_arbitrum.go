@@ -16,7 +16,7 @@
 
 package vm
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/bestyourwallet/go-ethereum/common"
 
 var (
 	PrecompiledContractsBeforeArbOS30       = make(map[common.Address]PrecompiledContract)

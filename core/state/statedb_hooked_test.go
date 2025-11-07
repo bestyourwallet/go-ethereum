@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/core/tracing"
+	"github.com/bestyourwallet/go-ethereum/core/types"
 	"github.com/holiman/uint256"
 )
 

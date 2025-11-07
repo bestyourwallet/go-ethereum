@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/eth/protocols/eth"
+	"github.com/bestyourwallet/go-ethereum/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

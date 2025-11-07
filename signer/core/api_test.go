@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/bestyourwallet/go-ethereum/accounts"
+	"github.com/bestyourwallet/go-ethereum/accounts/keystore"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common/hexutil"
+	"github.com/bestyourwallet/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/internal/ethapi"
+	"github.com/bestyourwallet/go-ethereum/rlp"
+	"github.com/bestyourwallet/go-ethereum/signer/core"
+	"github.com/bestyourwallet/go-ethereum/signer/core/apitypes"
+	"github.com/bestyourwallet/go-ethereum/signer/fourbyte"
+	"github.com/bestyourwallet/go-ethereum/signer/storage"
 )
 
 // Used for testing

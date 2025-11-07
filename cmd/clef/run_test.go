@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/internal/reexec"
+	"github.com/bestyourwallet/go-ethereum/internal/cmdtest"
+	"github.com/bestyourwallet/go-ethereum/internal/reexec"
 )
 
 const registeredName = "clef-test"

@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common"
 )
 
 // StemNode represents a group of `NodeWith` values sharing the same stem.

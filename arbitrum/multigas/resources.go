@@ -6,8 +6,8 @@ import (
 	"io"
 	"math/bits"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/go-ethereum/common/hexutil"
+	"github.com/bestyourwallet/go-ethereum/rlp"
 )
 
 // ResourceKind represents a dimension for the multi-dimensional gas.

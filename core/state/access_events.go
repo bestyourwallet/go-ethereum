@@ -20,10 +20,10 @@ import (
 	"maps"
 	gomath "math"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common/math"
+	"github.com/bestyourwallet/go-ethereum/params"
+	"github.com/bestyourwallet/go-ethereum/trie/utils"
 	"github.com/holiman/uint256"
 )
 

@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common"
 )
 
 // TestSerializeDeserializeInternalNode tests serialization and deserialization of InternalNode

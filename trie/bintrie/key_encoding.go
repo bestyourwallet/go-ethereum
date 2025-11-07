@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"crypto/sha256"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common"
 	"github.com/holiman/uint256"
 )
 

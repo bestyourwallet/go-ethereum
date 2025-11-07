@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/bestyourwallet/go-ethereum/core/types"
 )
 
 type lastBlockAndClient struct {

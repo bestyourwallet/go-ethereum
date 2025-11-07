@@ -19,11 +19,11 @@ package node
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/go-ethereum/ethdb"
+	"github.com/bestyourwallet/go-ethereum/ethdb/leveldb"
+	"github.com/bestyourwallet/go-ethereum/ethdb/pebble"
+	"github.com/bestyourwallet/go-ethereum/log"
 )
 
 // DatabaseOptions contains the options to apply when opening a database.

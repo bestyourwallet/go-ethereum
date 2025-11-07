@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
+	"github.com/bestyourwallet/go-ethereum/eth/ethconfig"
 	flag "github.com/spf13/pflag"
 )
 

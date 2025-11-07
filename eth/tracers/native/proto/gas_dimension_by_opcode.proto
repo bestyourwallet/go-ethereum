@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package eth.tracers.native.proto;
 
-option go_package = "github.com/ethereum/go-ethereum/eth/tracers/native/proto";
+option go_package = "github.com/bestyourwallet/go-ethereum/eth/tracers/native/proto";
 
 // GasesByDimension represents the gas consumption for each dimension
 message GasesByDimension {

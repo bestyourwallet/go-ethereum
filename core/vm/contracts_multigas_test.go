@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/arbitrum/multigas"
+	"github.com/bestyourwallet/go-ethereum/arbitrum/multigas"
 )
 
 func TestPrecompiledMultigas(t *testing.T) {

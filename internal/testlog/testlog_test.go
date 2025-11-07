@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/go-ethereum/log"
 )
 
 type mockT struct {

@@ -29,8 +29,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/go-ethereum/accounts/abi"
+	"github.com/bestyourwallet/go-ethereum/log"
 )
 
 var (

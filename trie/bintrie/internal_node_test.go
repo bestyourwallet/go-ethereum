@@ -21,7 +21,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/common"
 )
 
 // TestInternalNodeGet tests the Get method

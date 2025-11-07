@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/bestyourwallet/go-ethereum/accounts/keystore"
+	"github.com/bestyourwallet/go-ethereum/common"
+	"github.com/bestyourwallet/go-ethereum/console/prompt"
+	"github.com/bestyourwallet/go-ethereum/p2p/dnsdisc"
+	"github.com/bestyourwallet/go-ethereum/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

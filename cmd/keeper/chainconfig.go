@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-ethereum/params"
 )
 
 // getChainConfig returns the appropriate chain configuration based on the chainID.

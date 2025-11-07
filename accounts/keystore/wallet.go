@@ -22,7 +22,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum"
 	"github.com/bestyourwallet/go-ethereum/accounts"
 	"github.com/bestyourwallet/go-ethereum/core/types"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

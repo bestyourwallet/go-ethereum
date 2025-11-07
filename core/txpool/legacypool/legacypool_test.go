@@ -36,7 +36,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/core/txpool"
 	"github.com/bestyourwallet/go-ethereum/core/types"
 	"github.com/bestyourwallet/go-ethereum/core/vm"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/event"
 	"github.com/bestyourwallet/go-ethereum/params"
 	"github.com/bestyourwallet/go-ethereum/trie"

@@ -290,7 +290,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -346,7 +346,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -392,7 +392,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -450,7 +450,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/common"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -498,7 +498,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -565,7 +565,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -697,7 +697,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -747,7 +747,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/common"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -822,7 +822,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -916,7 +916,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/common"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1107,7 +1107,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1242,7 +1242,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 
 		`
@@ -1384,7 +1384,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1450,7 +1450,7 @@ var bindTests = []struct {
 		"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 		"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 		"github.com/bestyourwallet/go-ethereum/core/types"
-		"github.com/bestyourwallet/go-ethereum/crypto"
+		"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 		// Initialize test accounts
@@ -1537,7 +1537,7 @@ var bindTests = []struct {
 
 		"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 		"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
-		"github.com/bestyourwallet/go-ethereum/crypto"
+		"github.com/ethereum/go-ethereum/crypto"
 		"github.com/bestyourwallet/go-ethereum/core/types"
 		`,
 		`
@@ -1600,7 +1600,7 @@ var bindTests = []struct {
 
 		"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 		"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
-		"github.com/bestyourwallet/go-ethereum/crypto"
+		"github.com/ethereum/go-ethereum/crypto"
 		"github.com/bestyourwallet/go-ethereum/core/types"
         `,
 		`
@@ -1663,7 +1663,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1724,7 +1724,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 	   `,
 		`
 			key, _ := crypto.GenerateKey()
@@ -1814,7 +1814,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 			"github.com/bestyourwallet/go-ethereum/eth/ethconfig"
 	   `,
 		`
@@ -1896,7 +1896,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 			"github.com/bestyourwallet/go-ethereum/eth/ethconfig"
 	   `,
 		`
@@ -1949,7 +1949,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 			"github.com/bestyourwallet/go-ethereum/eth/ethconfig"
 		`,
 		tester: `
@@ -1998,7 +1998,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 			"github.com/bestyourwallet/go-ethereum/eth/ethconfig"
 		`,
 		tester: `
@@ -2039,7 +2039,7 @@ var bindTests = []struct {
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind"
 			"github.com/bestyourwallet/go-ethereum/accounts/abi/bind/backends"
 			"github.com/bestyourwallet/go-ethereum/core/types"
-			"github.com/bestyourwallet/go-ethereum/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 			"github.com/bestyourwallet/go-ethereum/eth/ethconfig"
 		`,
 		tester: `

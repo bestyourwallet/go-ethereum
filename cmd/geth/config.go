@@ -36,7 +36,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/cmd/utils"
 	"github.com/bestyourwallet/go-ethereum/common"
 	"github.com/bestyourwallet/go-ethereum/common/hexutil"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/eth/catalyst"
 	"github.com/bestyourwallet/go-ethereum/eth/ethconfig"
 	"github.com/bestyourwallet/go-ethereum/internal/flags"

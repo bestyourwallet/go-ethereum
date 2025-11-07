@@ -33,7 +33,7 @@ import (
 
 	"github.com/bestyourwallet/go-ethereum/common"
 	"github.com/bestyourwallet/go-ethereum/common/mclock"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/event"
 	"github.com/bestyourwallet/go-ethereum/log"
 	"github.com/bestyourwallet/go-ethereum/p2p/discover"

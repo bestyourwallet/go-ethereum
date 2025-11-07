@@ -35,7 +35,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/core/state/snapshot"
 	"github.com/bestyourwallet/go-ethereum/core/tracing"
 	"github.com/bestyourwallet/go-ethereum/core/types"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/trie/trienode"
 	"github.com/bestyourwallet/go-ethereum/triedb"
 	"github.com/bestyourwallet/go-ethereum/triedb/hashdb"

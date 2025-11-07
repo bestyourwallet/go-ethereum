@@ -35,8 +35,8 @@ import (
 	"github.com/bestyourwallet/go-ethereum/common/hexutil"
 	"github.com/bestyourwallet/go-ethereum/common/math"
 	"github.com/bestyourwallet/go-ethereum/core/types"
-	"github.com/bestyourwallet/go-ethereum/crypto"
-	"github.com/bestyourwallet/go-ethereum/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/holiman/uint256"
 )
 

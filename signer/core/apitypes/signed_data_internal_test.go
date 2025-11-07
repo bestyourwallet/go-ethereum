@@ -27,7 +27,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/common"
 	"github.com/bestyourwallet/go-ethereum/common/hexutil"
 	"github.com/bestyourwallet/go-ethereum/common/math"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

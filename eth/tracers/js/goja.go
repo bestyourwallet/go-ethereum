@@ -35,7 +35,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/common"
 	"github.com/bestyourwallet/go-ethereum/common/hexutil"
 	"github.com/bestyourwallet/go-ethereum/core/vm"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	jsassets "github.com/bestyourwallet/go-ethereum/eth/tracers/js/internal/tracers"
 )
 

@@ -32,7 +32,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/core/txpool"
 	"github.com/bestyourwallet/go-ethereum/core/txpool/legacypool"
 	"github.com/bestyourwallet/go-ethereum/core/types"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/ethdb"
 	"github.com/bestyourwallet/go-ethereum/params"
 )

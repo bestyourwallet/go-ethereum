@@ -35,7 +35,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/core/txpool/legacypool"
 	"github.com/bestyourwallet/go-ethereum/core/txpool/locals"
 	"github.com/bestyourwallet/go-ethereum/core/types"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/params"
 	"github.com/holiman/uint256"
 )

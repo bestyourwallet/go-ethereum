@@ -8,7 +8,7 @@ import (
 
 	"github.com/bestyourwallet/go-ethereum/beacon/engine"
 	"github.com/bestyourwallet/go-ethereum/common"
-	"github.com/bestyourwallet/go-ethereum/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 )
 
 // GetBlobs is a mimic of blobSidecars function (https://github.com/OffchainLabs/nitro/blob/a4b72abd63df46de920580685842491d550dfc20/util/headerreader/blob_client.go#L199)

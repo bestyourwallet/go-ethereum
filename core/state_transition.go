@@ -28,7 +28,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/core/tracing"
 	"github.com/bestyourwallet/go-ethereum/core/types"
 	"github.com/bestyourwallet/go-ethereum/core/vm"
-	"github.com/bestyourwallet/go-ethereum/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/bestyourwallet/go-ethereum/params"
 	"github.com/holiman/uint256"
 )

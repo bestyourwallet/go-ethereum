@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/p2p/enode"
 	"github.com/bestyourwallet/go-ethereum/p2p/enr"
 	"github.com/urfave/cli/v2"

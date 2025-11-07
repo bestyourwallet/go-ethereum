@@ -27,7 +27,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/accounts/abi/abigen"
 	"github.com/bestyourwallet/go-ethereum/cmd/utils"
 	"github.com/bestyourwallet/go-ethereum/common/compiler"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/internal/flags"
 	"github.com/bestyourwallet/go-ethereum/log"
 	"github.com/urfave/cli/v2"

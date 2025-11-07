@@ -26,7 +26,7 @@ import (
 	"testing"
 
 	"github.com/bestyourwallet/go-ethereum/common/hexutil"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/p2p/enode"
 )
 

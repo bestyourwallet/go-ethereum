@@ -32,7 +32,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/core/state/pruner"
 	"github.com/bestyourwallet/go-ethereum/core/state/snapshot"
 	"github.com/bestyourwallet/go-ethereum/core/types"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/log"
 	"github.com/bestyourwallet/go-ethereum/rlp"
 	"github.com/bestyourwallet/go-ethereum/trie"

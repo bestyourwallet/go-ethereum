@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/bestyourwallet/go-ethereum/common"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/params"
 	"github.com/bestyourwallet/go-ethereum/rlp"
 )

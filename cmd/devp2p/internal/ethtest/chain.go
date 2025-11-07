@@ -37,7 +37,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/core/forkid"
 	"github.com/bestyourwallet/go-ethereum/core/state"
 	"github.com/bestyourwallet/go-ethereum/core/types"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/eth/protocols/eth"
 	"github.com/bestyourwallet/go-ethereum/params"
 	"github.com/bestyourwallet/go-ethereum/rlp"

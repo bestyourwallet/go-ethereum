@@ -28,7 +28,7 @@ import (
 
 	"github.com/bestyourwallet/go-ethereum/cmd/devp2p/internal/v4test"
 	"github.com/bestyourwallet/go-ethereum/common"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/log"
 	"github.com/bestyourwallet/go-ethereum/p2p/discover"
 	"github.com/bestyourwallet/go-ethereum/p2p/enode"

@@ -29,7 +29,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/common/math"
 	"github.com/bestyourwallet/go-ethereum/consensus/clique"
 	"github.com/bestyourwallet/go-ethereum/core/types"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/rlp"
 	"github.com/urfave/cli/v2"
 )

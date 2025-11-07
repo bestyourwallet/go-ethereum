@@ -24,7 +24,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/internal/utesting"
 	"github.com/bestyourwallet/go-ethereum/p2p/discover/v4wire"
 	"github.com/bestyourwallet/go-ethereum/p2p/enode"

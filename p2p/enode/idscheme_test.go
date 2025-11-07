@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/p2p/enr"
 	"github.com/bestyourwallet/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"

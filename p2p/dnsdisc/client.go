@@ -29,7 +29,7 @@ import (
 
 	"github.com/bestyourwallet/go-ethereum/common/lru"
 	"github.com/bestyourwallet/go-ethereum/common/mclock"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/log"
 	"github.com/bestyourwallet/go-ethereum/p2p/enode"
 	"github.com/bestyourwallet/go-ethereum/p2p/enr"

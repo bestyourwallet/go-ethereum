@@ -30,7 +30,7 @@ import (
 	"github.com/bestyourwallet/go-ethereum/core/rawdb"
 	"github.com/bestyourwallet/go-ethereum/core/txpool"
 	"github.com/bestyourwallet/go-ethereum/core/types"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/eth/ethconfig"
 	"github.com/bestyourwallet/go-ethereum/eth/protocols/eth"
 	"github.com/bestyourwallet/go-ethereum/ethdb"

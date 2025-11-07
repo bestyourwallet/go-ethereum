@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/rlp"
 )
 

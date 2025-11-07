@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/bestyourwallet/go-ethereum/common/hexutil"
-	"github.com/bestyourwallet/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-ethereum/internal/debug"
 	"github.com/bestyourwallet/go-ethereum/log"
 	"github.com/bestyourwallet/go-ethereum/p2p"
